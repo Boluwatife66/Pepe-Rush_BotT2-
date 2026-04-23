@@ -38,7 +38,7 @@ MENU_FILTER = filters.Regex(
 )
 
 
-def main():
+async def main():
     init_db()
     logger.info("✅ PepeRush Bot starting…")
 
@@ -83,8 +83,11 @@ def main():
         wallet_input_handler
     ))
 
-    app.run_polling(drop_pending_updates=True)
-
-
+    async with app:
+        await app.updater.start_polling(drop_pending_updates=True)
+        await app.start()
+        await asyncio.Event().wait()
+import asyncio
 if __name__ == "__main__":
+    asyncio.run(main())
     main()
