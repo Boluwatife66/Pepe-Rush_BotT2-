@@ -25,7 +25,8 @@ from handlers.admin      import (
     add_balance_handler, get_chat_id_handler, set_chat_id_handler,
     ban_user_handler
 )
-
+from server import start
+start()
 logging.basicConfig(
     format="%(asctime)s | %(levelname)s | %(name)s | %(message)s",
     level=logging.INFO
