@@ -94,8 +94,7 @@ def _seed_defaults(conn):
         ("telegram", "https://t.me/+etPGyK-JcLwxZDY0",                          None),
         ("telegram", "https://t.me/+8SimTcYDCJllMjI0",                          None),
         ("telegram", "https://t.me/+H6oH96FgLi44ZDVk",                          None),
-        ("whatsapp", "https://chat.whatsapp.com/HR1SaRJkPlJ3tWPsWldcPv?mode=gi_t", None),
-        ("whatsapp", "https://chat.whatsapp.com/EMY3Mx7dkhfF8FsBytfSx2?mode=gi_t", None),
+        ("whatsapp", "https://chat.whatsapp.com/DOS1txZBItW0oXN40i1A0F?mode=gi_t", None),
         ("whatsapp", "https://chat.whatsapp.com/EMY3Mx7dkhfF8FsBytfSx2?mode=gi_f", None),
         ("whatsapp", "https://chat.whatsapp.com/EMY3Mx7dkhfF8FsBytfSx2?mode=gi_g", None),
     ]
